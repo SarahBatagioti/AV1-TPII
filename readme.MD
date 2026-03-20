@@ -1,64 +1,13 @@
-# Atlantis
+![Banner Atlantis](img/bannerAtlantis.png)
 
 O Atlantis é um sistema de gestão para parques aquáticos, clubes e hotéis, criado para cadastrar clientes e seus dependentes. Utilizando o padrão de design "protótipo", o sistema armazena informações como endereço e telefone de maneira eficiente. A primeira versão do projeto foca na criação de um módulo simples e funcional, com a intenção de facilitar a administração desses estabelecimentos.
 
 ## Requisitos para rodar
 
-### 1) Git
-Necessário para clonar o repositório.
+- Node.js: v24.13.1 (versão testada)
+- npm: versão que acompanha o Node v24.13.1
 
-Como verificar se já tem instalado:
-
-```bash
-git --version
-```
-
-Se aparecer uma versão (ex.: `git version 2.x.x`), está OK.
-
-### 2) Node.js (LTS)
-Necessário para executar JavaScript no terminal.
-
-Como verificar:
-
-```bash
-node -v
-```
-
-Se aparecer uma versão (ex.: `v20.x.x`), está OK.
-
-### 3) npm
-Gerenciador de pacotes que vem junto com o Node.js.
-
-Como verificar:
-
-```bash
-npm -v
-```
-
-Se aparecer uma versão numérica, está OK.
-
-### 4) TypeScript (via projeto)
-Este projeto é escrito em `.ts` e precisa ser compilado para `.js`.
-
-Observação:
-- O TypeScript já está configurado no projeto em `devDependencies`.
-- Ao executar `npm install`, ele será instalado automaticamente.
-
-Como verificar depois da instalação:
-
-```bash
-npx tsc -v
-```
-
-Se aparecer uma versão do TypeScript, está OK.
-
-## Como rodar o projeto (partindo do GitHub)
-
-Repositório:
-
-```text
-https://github.com/SarahBatagioti/AV1-TPII
-```
+## Como rodar o projeto
 
 ### 1) Clonar o repositório
 
