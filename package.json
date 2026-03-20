@@ -4,7 +4,10 @@
   "description": "",
   "main": "js/teste/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node js/teste/index.js",
+    "check": "npm run build && npm run start",
+    "test": "npm run check"
   },
   "author": "",
   "license": "ISC",
