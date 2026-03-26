@@ -40,4 +40,6 @@ jobs:
         run: npm run build
 
       - name: Run project
+        env:
+          CI: true
         run: npm run start
